@@ -1,0 +1,23 @@
+# ---- Web 框架 ----
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.27,<1.0
+python-multipart>=0.0.9
+python-dotenv>=1.0
+
+# ---- LangChain 编排 ----
+langchain>=0.3,<2.0
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+langchain-openai>=0.2
+langchain-chroma>=0.2
+
+# ---- 向量库 ----
+chromadb>=0.5
+
+# ---- PDF 解析（上传 PDF 时需要）----
+pypdf>=4.2
+
+# ---- 测试 ----
+pytest>=8.0
+httpx>=0.27

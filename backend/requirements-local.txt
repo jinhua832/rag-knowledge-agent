@@ -1,0 +1,6 @@
+-r requirements.txt
+
+# 可选：完全离线 / 不花钱的本地向量化方案（首次运行会自动下载约 100MB 的中文向量模型）
+# 安装后把 .env 里的 EMBEDDING_PROVIDER 改成 local
+sentence-transformers>=3.0
+langchain-huggingface>=0.1

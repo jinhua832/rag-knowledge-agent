@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "description": "20 条测试问答：17 条有标准答案，3 条知识库里没有答案（用于检验模型会不会编造）。keywords 用于自动判分，answer 由模型生成。",
+  "questions": [
+    {
+      "id": 1,
+      "type": "answerable",
+      "question": "入职满 3 年的员工，一年有几天年假？",
+      "source": "员工手册.md",
+      "keywords": ["10 天", "10天"]
+    },
+    {
+      "id": 2,
+      "type": "answerable",
+      "question": "当年没休完的年假最晚能顺延到什么时候？",
+      "source": "员工手册.md",
+      "keywords": ["3 月 31", "3月31"]
+    },
+    {
+      "id": 3,
+      "type": "answerable",
+      "question": "公司允许的弹性上班时间区间是几点到几点？",
+      "source": "员工手册.md",
+      "keywords": ["9:30"]
+    },
+    {
+      "id": 4,
+      "type": "answerable",
+      "question": "忘记打卡后，每个月最多可以补卡几次？",
+      "source": "员工手册.md",
+      "keywords": ["3 次", "3次"]
+    },
+    {
+      "id": 5,
+      "type": "answerable",
+      "question": "每周最多可以申请几天远程办公？",
+      "source": "员工手册.md",
+      "keywords": ["2 天", "2天"]
+    },
+    {
+      "id": 6,
+      "type": "answerable",
+      "question": "去北京出差，住宿标准一晚最多多少钱？",
+      "source": "员工手册.md",
+      "keywords": ["500"]
+    },
+    {
+      "id": 7,
+      "type": "answerable",
+      "question": "每月的报销截止日是几号？",
+      "source": "员工手册.md",
+      "keywords": ["15 日", "15日", "15 号"]
+    },
+    {
+      "id": 8,
+      "type": "answerable",
+      "question": "休息日加班，调休时长怎么折算？",
+      "source": "员工手册.md",
+      "keywords": ["1.5"]
+    },
+    {
+      "id": 9,
+      "type": "answerable",
+      "question": "调休必须在多长时间内用完？",
+      "source": "员工手册.md",
+      "keywords": ["3 个月", "3个月"]
+    },
+    {
+      "id": 10,
+      "type": "answerable",
+      "question": "星尘笔记 Pro 版一年多少钱？",
+      "source": "星尘笔记产品FAQ.md",
+      "keywords": ["68"]
+    },
+    {
+      "id": 11,
+      "type": "answerable",
+      "question": "免费版的云存储空间有多大？",
+      "source": "星尘笔记产品FAQ.md",
+      "keywords": ["500 MB", "500MB", "500 兆"]
+    },
+    {
+      "id": 12,
+      "type": "answerable",
+      "question": "购买超过 7 天还能退款吗？",
+      "source": "星尘笔记产品FAQ.md",
+      "keywords": ["不支持", "抵扣券"]
+    },
+    {
+      "id": 13,
+      "type": "answerable",
+      "question": "团队版最少要买几个人的席位？",
+      "source": "星尘笔记产品FAQ.md",
+      "keywords": ["5 人", "5人"]
+    },
+    {
+      "id": 14,
+      "type": "answerable",
+      "question": "接口的 Access Token 有效期是多久？",
+      "source": "API接入指南.md",
+      "keywords": ["30 天", "30天"]
+    },
+    {
+      "id": 15,
+      "type": "answerable",
+      "question": "免费版调用 API 每分钟最多多少次？",
+      "source": "API接入指南.md",
+      "keywords": ["60"]
+    },
+    {
+      "id": 16,
+      "type": "answerable",
+      "question": "搜索笔记接口的 limit 参数最大能传多少？",
+      "source": "API接入指南.md",
+      "keywords": ["100"]
+    },
+    {
+      "id": 17,
+      "type": "answerable",
+      "question": "新员工的试用期是几个月？",
+      "source": "新员工入职指南.md",
+      "keywords": ["3 个月", "3个月"]
+    },
+    {
+      "id": 18,
+      "type": "unanswerable",
+      "question": "星尘科技的股票代码是多少？",
+      "source": "",
+      "keywords": []
+    },
+    {
+      "id": 19,
+      "type": "unanswerable",
+      "question": "星尘科技的 CEO 叫什么名字？",
+      "source": "",
+      "keywords": []
+    },
+    {
+      "id": 20,
+      "type": "unanswerable",
+      "question": "公司年会一般在几月举办？",
+      "source": "",
+      "keywords": []
+    }
+  ]
+}
